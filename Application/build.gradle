@@ -38,20 +38,20 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
 
-    buildTypes {
+//    buildTypes {
+//
+//        debug {
+//            useProguard true
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+//        }
+//        release {
+//            useProguard true
+//            minifyEnabled true
+//            proguardFile file('proguard.cfg')
+//        }
 
-        debug {
-            useProguard true
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
-        }
-        release {
-            useProguard true
-            minifyEnabled true
-            proguardFile file('proguard.cfg')
-        }
-
-    }
+//    }
 
 
         defaultConfig {
