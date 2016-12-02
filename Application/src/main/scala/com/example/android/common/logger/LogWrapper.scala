@@ -15,8 +15,6 @@
  */
 package com.example.android.common.logger
 
-import android.util.Log
-
 class LogWrapper extends LogNode {
   private var mNext: LogNode = null
 
